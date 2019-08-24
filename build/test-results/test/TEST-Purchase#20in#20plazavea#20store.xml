@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Purchase in plazavea store" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T14:54:18" hostname="jhonatan-PC" time="55.84">
+<testsuite name="Purchase in plazavea store" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T16:45:15" hostname="jhonatan-PC" time="74.136">
   <properties/>
-  <testcase name="A user wants to enter plazavea website and purchase a product" classname="Purchase in plazavea store" time="55.84"/>
+  <testcase name="A user wants to enter plazavea website and purchase a product" classname="Purchase in plazavea store" time="74.136"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 24, 2019 9:54:18 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Aug 24, 2019 11:45:15 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}) on port 21149
+Starting ChromeDriver 76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}) on port 16301
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Aug 24, 2019 9:54:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 24, 2019 11:45:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
