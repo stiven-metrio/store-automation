@@ -9,11 +9,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
-import static org.hamcrest.Matchers.greaterThan;
 import org.openqa.selenium.WebDriver;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.Matchers.greaterThan;
 
 public class ProductsPurchaseStepsDefinitions {
     Actor user = Actor.named("User");

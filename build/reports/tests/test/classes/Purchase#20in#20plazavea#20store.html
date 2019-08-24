@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">48.395s</div>
+<div class="counter">55.840s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,34 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard error</a>
+<a href="#tab1">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="As a plazavea user, I want to enter its website and purchase a product"></a>
-<h3 class="failures">As a plazavea user, I want to enter its website and purchase a product</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 
-Expected: a value greater than &lt;1&gt;
-     but: &lt;1&gt; was equal to &lt;1&gt;
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
-	at co.com.test.stepdefinitions.ProductsPurchaseStepsDefinitions.theProductIsAddedToTheShoppingCart(ProductsPurchaseStepsDefinitions.java:43)
-	at ✽.The product is added to the shopping cart(src/test/resources/features/productsPurchase.feature:6)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -99,35 +78,32 @@ Expected: a value greater than &lt;1&gt;
 </tr>
 </thead>
 <tr>
-<td class="failures">As a plazavea user, I want to enter its website and purchase a product</td>
-<td class="failures">48.395s</td>
-<td class="failures">failed</td>
+<td class="success">A user wants to enter plazavea website and purchase a product</td>
+<td class="success">55.840s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Aug 24, 2019 8:20:56 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+<pre>Aug 24, 2019 9:54:18 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}) on port 5815
+Starting ChromeDriver 76.0.3809.12 (220b19a666554bdcac56dff9ffd44c300842c933-refs/branch-heads/3809@{#83}) on port 21149
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566652859.074][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-Aug 24, 2019 8:21:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 24, 2019 9:54:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED: As a plazavea user, I want to enter its website and purchase a product
---------------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then the result should be a value greater than (1)
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: a value greater than &lt;1&gt; but: &lt;1&gt; was equal to &lt;1&gt;
+TEST PASSED: A user wants to enter plazavea website and purchase a product
+----------------------------------------------------------------------------
 </pre>
 </span>
 </div>
@@ -139,7 +115,7 @@ TEST FAILED: As a plazavea user, I want to enter its website and purchase a prod
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at Aug 24, 2019, 8:21:54 AM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Aug 24, 2019, 9:55:20 AM</p>
 </div>
 </div>
 </body>
