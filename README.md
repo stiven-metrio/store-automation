@@ -16,7 +16,9 @@ In the scenario, a user enters the website, looks for a Nintendo and adds it to 
 
 # Get the code
 
+```
 git clone https://github.com/stiven-metrio/store-automation.git
+```
 
 # Project Structure
 
@@ -54,3 +56,13 @@ In order to execute the test, open the project's terminal an run the command:
 $ gradle clean test -Pdriver=chrome
 ```
 
+# Test Description
+
+```
+Feature: Purchase in plazavea store
+
+  Scenario: A user wants to enter plazavea website and purchase a product
+    Given that a user entered plazavea website
+    When he finds the wanted product
+    Then The product is added to the shopping cart
+```
