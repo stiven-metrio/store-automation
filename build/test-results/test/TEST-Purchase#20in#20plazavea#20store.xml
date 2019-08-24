@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Purchase in plazavea store" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-08-24T06:02:52" hostname="jhonatan-PC" time="114.151">
+<testsuite name="Purchase in plazavea store" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-08-24T13:20:56" hostname="jhonatan-PC" time="48.395">
   <properties/>
-  <testcase name="As a plazavea user, I want to enter its website and purchase a product" classname="Purchase in plazavea store" time="114.151">
-    <skipped/>
+  <testcase name="As a plazavea user, I want to enter its website and purchase a product" classname="Purchase in plazavea store" time="48.395">
+    <failure message="java.lang.AssertionError: &#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: a value greater than &lt;1&gt;
+     but: &lt;1&gt; was equal to &lt;1&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.test.stepdefinitions.ProductsPurchaseStepsDefinitions.theProductIsAddedToTheShoppingCart(ProductsPurchaseStepsDefinitions.java:43)
+	at ✽.The product is added to the shopping cart(src/test/resources/features/productsPurchase.feature:6)
+</failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 24, 2019 1:02:52 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Aug 24, 2019 8:20:56 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}) on port 11349
+Starting ChromeDriver 75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}) on port 5815
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566626628.438][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-[1566626628.702][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
-[1566626631.140][WARNING]: Timed out connecting to Chrome, retrying...
-Aug 24, 2019 1:03:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1566652859.074][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
+Aug 24, 2019 8:21:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
 
-TEST PENDING: As a plazavea user, I want to enter its website and purchase a product
----------------------------------------------------------------------------------
+TEST FAILED: As a plazavea user, I want to enter its website and purchase a product
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then the result should be a value greater than (1)
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: a value greater than <1> but: <1> was equal to <1>
 ]]></system-err>
 </testsuite>

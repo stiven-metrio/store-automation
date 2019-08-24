@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Purchase in plazavea store" skipped="1" tests="1" time="114.6" timestamp="2019-08-24 01:02:52"><testcase name="As a plazavea user, I want to enter its website and purchase a product"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Purchase in plazavea store" skipped="0" tests="1" time="48.86" timestamp="2019-08-24 08:20:56"><testcase name="As a plazavea user, I want to enter its website and purchase a product"><failure message="&#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">
+Expected: a value greater than &lt;1&gt;
+     but: &lt;1&gt; was equal to &lt;1&gt;</failure><system-err>
+Expected: a value greater than &lt;1&gt;
+     but: &lt;1&gt; was equal to &lt;1&gt;&#13;
+co.com.test.stepdefinitions.ProductsPurchaseStepsDefinitions.theProductIsAddedToTheShoppingCart(ProductsPurchaseStepsDefinitions.java:43)&#13;
+✽.The product is added to the shopping cart(src/test/resources/features/productsPurchase.feature:6)&#13;
+</system-err></testcase></testsuite>

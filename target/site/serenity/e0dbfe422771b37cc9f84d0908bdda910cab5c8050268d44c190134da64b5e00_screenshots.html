@@ -129,7 +129,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2019 01:02</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-08-2019 08:20</span>
     <br style="clear:left"/>
 </div>
 
@@ -164,9 +164,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="pending-color">As a plazavea user, I want to enter its website and purchase a product
+                                <span class="failing-color">As a plazavea user, I want to enter its website and purchase a product
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -183,10 +183,56 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: a value greater than (1) but: (1) was equal to (1)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.test.stepdefinitions.ProductsPurchaseStepsDefinitions.theProductIsAddedToTheShoppingCart(ProductsPurchaseStepsDefinitions.java:43)<br />✽.The product is added to the shopping cart(src/test/resources/features/productsPurchase.feature:6)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource17340053581426470974.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="b6c6a029201e8c787cf8a4efe716d8afb6be06990b999917c063d202a7394650.png" title="Given that a user entered plazavea website" width="1366"/>
-                <img src="95b3300fde5280abf7c51470babda03b3718b586ed2647aa54356fc3a52f5cf1.png" title="User opens the Home page: <span class='pending-color'>PENDING</span>" width="1366"/>
+                <img src="11c003f6d1b491cc9b70b8b9396fe9b94b48b0ece7564099da1eeaa8645680c8.png" title="Given that a user entered plazavea website" width="1366"/>
+                <img src="9cdf0dbe9a38fb193eb544be1d70d169a9ce40d7bc5ca69ec3cfcf4fa38671c9.png" title="User opens the Home page" width="1366"/>
+                <img src="e1dc841e6a9be2b68c02bf96cb2079ee3a7ca107cfc91b77a0174952a4ed36ec.png" title="When he finds the wanted product" width="1366"/>
+                <img src="cb86929d08ccc6e6c9d8774ece88b846910bebc42d08ca5b3882767d7ab4fce4.png" title="User clicks on Navigation bar, Electro y Hogar products" width="1366"/>
+                <img src="93f7f459153c27d3a5b41a611315e477c68126a7fca7adda85bad73b8400f643.png" title="User clicks on PS, Nintendo" width="1366"/>
+                <img src="1626fdb45190512c99a5acf46cd068840ff502609ce17ddfb5cab18316aaacba.png" title="User clicks on Check NINTENDO" width="1366"/>
+                <img src="b2537f9b7fe04d57945f190a6050913b76d4154babcaea91fa24145c7421d875.png" title="User clicks on Nintendo Switch" width="1366"/>
+                <img src="a5f713c52a39516d4f595d4259a1c3fe97e288e2103ac65517c67dad3fed9a7d.png" title="User clicks on Add product to the cart" width="1366"/>
+                <img src="e1dc841e6a9be2b68c02bf96cb2079ee3a7ca107cfc91b77a0174952a4ed36ec.png" title="Then the result should be a value greater than (1): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
